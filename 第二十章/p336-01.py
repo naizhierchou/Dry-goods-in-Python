@@ -1,0 +1,11 @@
+d=dict(name="zhangsan",age=27)
+co=d.copy()
+id(d)
+id(co)
+d
+co
+d=dict(name="zhangsan",age=27,children_ages=[11,22])
+co=d.copy()
+d["children_ages"].append(9)
+d
+co

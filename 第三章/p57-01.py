@@ -1,9 +1,9 @@
-i=10
-while i>0:
-    print("妈，还要我刷啊")
-    if i==5:
-        print ("好了，不用刷了")
+name="youyongedu"
+for x in name:
+    if x=="e":
+        print("不能使用字符e")
         break
-    print("正在刷%d个碗"%i)
-    i-=1
-print("程序结束")
+    else:
+        print(x)
+else:
+    print("没有出现禁止使用的字符")

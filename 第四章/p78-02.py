@@ -1,6 +1,3 @@
-namesList = ['xiaoWang', 'xiaoZhang', 'xiaoHua']
-length = len(namesList)  # 获取列表⻓度
-i = 0
-while i < length:
-    print(namesList[i])
-    i += 1
+dict={"name":"zhangsan","sex":"m"}
+for key,value in dict.items():
+    print ("key=%s,value=%s"%(key,value))

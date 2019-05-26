@@ -1,3 +1,6 @@
-print("我今年10岁")
-print("我今年11岁")
-print("我今年12岁")
+age=10
+print("我今年%d"%age)
+age+=1
+print("我今年%d岁"%age)
+age+=1
+print("我今年%d岁"%age)

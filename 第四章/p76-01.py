@@ -1,9 +1,4 @@
-# 待查找的列表
-nameList = ['xiaoWang', 'xiaoZhang', 'xiaoHua']
-# 获取⽤户要查找的名字
-findName = input('请输⼊要查找的姓名:')
-# 查找是否存在
-if findName in nameList:
-    print('在字典中找到了相同的名字')
-else:
-    print('没有找到')
+info = {'name':'班⻓'}
+print('添加之前的字典为:%s' % info)
+info['id'] = 100 # 为不存在的键赋值就是添加元素
+print('添加之后的字典为:%s' % info)

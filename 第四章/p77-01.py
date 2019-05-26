@@ -1,4 +1,4 @@
-movieName = ['加勒⽐海盗', '骇客帝国', '第⼀滴⾎', '指环王', '霍⽐特⼈', '速度与激情']
-print('------删除之前------movieName=%s' % movieName)
-del movieName[2]
-print('------删除之后------movieName=%s' % movieName)
+info = {'name':'monitor', 'id':100}
+print('清空前,%s'%info)
+info.clear()
+print('清空后,%s'%info)

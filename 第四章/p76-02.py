@@ -1,8 +1,4 @@
-a = ['a', 'b', 'c', 'a', 'b']
-#a.index('a', 1, 3) # 注意是左闭右开区间
-
-a.index('a', 1, 4)
-
-a.count('b')
-
-a.count('d')
+info = {'name':'班⻓', 'id':100}
+print('删除前,%s' % info)
+del info['name'] # del 可以通过键删除字典⾥的指定元素
+print('删除后,%s' % info)

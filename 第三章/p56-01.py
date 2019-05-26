@@ -1,6 +1,8 @@
 i=1
-sum=0
-while i <=100:
-    sum=sum+i
+while i<=9:
+    j=1
+    while j<=i:
+        print("%d*%d=%-2d"%(j,i,i*j),end=' ')
+        j+=1
+    print("\n")
     i+=1
-print ("1-100的累计和为：%d"%sum)

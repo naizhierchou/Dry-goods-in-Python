@@ -1,10 +1,14 @@
-##逻辑运算符
-#and:左右表达式都为True，整个表达式结果才为True
-if (1==1)and(10>3):
-    print("条件成立！")
-#or:左右表达式有一个为True，整个表达式结果就为True
-if (1==2)or(10>3):
-    print("条件成立！")
-#not:将右边表达式的逻辑结果取反，True变为False，False变为True
-if not (1==2):
-    print("条件成立！")
+chePiao=1 #用1代表有车票，0代表没有车票
+daoLenght=9 #刀子的长度，单位为cm
+
+if chePiao==1:
+    print("有车票，可以进站")
+    if daoLenght<10:
+        print("通过安检")
+        print("终于可以见到Ta了，美滋滋")
+    else:
+        print("没有通过安检")
+        print("刀子的长度超过规定，等待警察处理")
+else:
+    print("没有车票，不能进站")
+    print("亲爱的，那就下次见了")

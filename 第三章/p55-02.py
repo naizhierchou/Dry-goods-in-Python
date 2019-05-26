@@ -1,4 +1,8 @@
-i =0
-while i<5:
-    print ("当前是第%d次执行循环"%i)
+i=1
+while i<=5:
+    j=1
+    while j<=i:
+        print("*",end="")
+        j+=1
+    print("\n")
     i+=1

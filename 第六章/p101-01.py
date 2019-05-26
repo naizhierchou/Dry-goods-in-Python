@@ -1,9 +1,8 @@
-# 定义全局变量
+def test1(b): # 变量b⼀定是⼀个局部变量，就看它指向的是谁，可变还是不可变
+    b += b
+    # b = b+b
+    print(b)
+# a = [11, 22]
 a = 100
-def test1():
-    print(a) # 虽然没有定义变量a但是依然可以获取其数据
-def test2():
-    print(a) # 虽然没有定义变量a但是依然可以获取其数据
-# 调⽤函数
-test1()
-test2()
+test1(a)
+print(a)
